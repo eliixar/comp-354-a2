@@ -6,7 +6,7 @@ All four members are Developers and contribute to the technical work.
 |---|---|---|
 | Alexa Rokakis | Product Owner + Developer | Owns and orders the Product Backlog, writes and clarifies PBIs and acceptance criteria, decides priorities, analyzes the mid-Sprint change. Develops: [TBD] |
 | TBC | Scrum Master + Developer | Facilitates Daily Scrum, Sprint Planning, Review and Retrospective, tracks impediments, keeps the board up to date. Develops: [TBD] |
-| TBC | Developer | Develops: [TBD] |
+| Nikitas Vourtzoumis | Developer | Develops: [TBD] |
 | TBC | Developer | Develops: [TBD] |
 
 # Why the top five items come first (Product Owner)
