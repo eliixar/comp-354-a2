@@ -36,7 +36,8 @@ A web application for ordering food from independent restaurants and picking it 
 
 4. Set up the database (schema and sample data):
 ```
-   [command to be added once the database setup from Tasks 1 and 2 is merged]
+   python init_db.py
+
 ```
 
 ## Run the app
