@@ -1,4 +1,4 @@
-from flask import Flask, current_app, g
+from flask import Flask, current_app, g, render_template
 import os
 import sqlite3
 
@@ -33,7 +33,7 @@ def get_restaurants():
 
 @app.route("/")
 def home():
-    return "QuickBite is running"
+    return render_template("index.html", restaurants=get_restaurants())
 
 if __name__ == "__main__":
     app.run(debug=True)
