@@ -17,7 +17,6 @@ CREATE TABLE menu_items (
 CREATE TABLE orders (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     restaurant_id INTEGER NOT NULL,
-    customer_name TEXT NOT NULL,
     pickup_time TEXT NOT NULL,
     status TEXT NOT NULL DEFAULT 'Received'
         CHECK (status in ('Received', 'Preparing', 'Ready for Pickup', 'Completed')),
