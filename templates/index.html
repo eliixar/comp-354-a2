@@ -1,19 +1,64 @@
-<!DOCTYPE HTML>
-<html lang ="en">
-    <head>
-        <title>QuickBite</title>
-    </head>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 30px;
+            background-color: #fffaf5;
+            color: #333;
+        }
 
-    <body>
-        <h1>Quickbite</h1>
+        h1 {
+            text-align: center;
+            color: #e85d04;
+        }
+
+        .restaurant-list {
+            max-width: 700px;
+            margin: 30px auto;
+        }
+
+        .restaurant-card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border: 1px solid #eee;
+        }
+
+        .restaurant-card h2 {
+            margin-top: 0;
+            color: #d9480f;
+        }
+
+        .empty-message {
+            text-align: center;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>QuickBite</h1>
+
+    <div class="restaurant-list">
         {% if restaurants %}
-            <ul>
-                {% for restaurant in restaurants %}
-                    <li>{{restaurant['name']}}: {{restaurant['description']}}</li>
-                {% endfor %}
-            </ul>
+            {% for restaurant in restaurants %}
+                <div class="restaurant-card">
+                    <h2>{{ restaurant['name'] }}</h2>
+                    <p>{{ restaurant['description'] }}</p>
+                </div>
+            {% endfor %}
         {% else %}
-            <p>No restaurants available</p>
+            <p class="empty-message">No restaurants available</p>
         {% endif %}
-    </body>
+    </div>
+</body>
 </html>
+```
