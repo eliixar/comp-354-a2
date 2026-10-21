@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang ="en">
+    <head>
+        <title>QuickBite</title>
+    </head>
+
+    <body>
+        <h1>Quickbite</h1>
+        {% if restaurants %}
+            <ul>
+                {% for restaurant in restaurants %}
+                    <li>{{restaurant['name']}}: {{restaurant['description']}}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No restaurants available</p>
+        {% endif %}
+    </body>
+</html>
