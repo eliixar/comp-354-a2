@@ -29,7 +29,7 @@ def close_db(e=None):
 app.teardown_appcontext(close_db) # tells Flask to call that function when cleaning up after the response (from official Flask tutorial)
 
 def get_restaurants():
-    return g.db.execute("SELECT * FROM restaurants ORDER BY name;").fetchall() # fetchall() to return a list
+    return get_db().execute("SELECT * FROM restaurants ORDER BY name;").fetchall() # fetchall() to return a list
 
 @app.route("/")
 def home():
