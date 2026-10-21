@@ -4,10 +4,10 @@ All four members are Developers and contribute to the technical work.
 
 | Member | Scrum role | Responsibilities |
 |---|---|---|
-| Alexa Rokakis | Product Owner + Developer | Owns and orders the Product Backlog, writes and clarifies PBIs and acceptance criteria, decides priorities, analyzes the mid-Sprint change. Develops: [TBD] |
-| TBC | Scrum Master + Developer | Facilitates Daily Scrum, Sprint Planning, Review and Retrospective, tracks impediments, keeps the board up to date. Develops: [TBD] |
-| Nikitas Vourtzoumis | Developer | Develops: [TBD] |
-| TBC | Developer | Develops: [TBD] |
+| Alexa Rokakis | Product Owner + Developer | Owns and orders the Product Backlog, writes and clarifies PBIs and acceptance criteria, decides priorities, analyzes the mid-Sprint change. Develops: Codebase setup and frontend work + README instructions |
+| Zain Yehia | Scrum Master + Developer | Facilitates Daily Scrum, Sprint Planning, Review and Retrospective, tracks impediments, keeps the board up to date. Develops: Landing page (frontend and backend) |
+| Nikitas Vourtzoumis | Developer | Develops: Database schema and seed data, and database initalization + Creates database diagram |
+| Nicolas Nahas | Developer | Develops: Display testing and automated testing setup |
 
 # Why the top five items come first (Product Owner)
 
