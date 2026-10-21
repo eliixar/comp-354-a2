@@ -50,7 +50,7 @@ Then open http://127.0.0.1:5000 in your browser. Press Ctrl+C in the terminal to
 ## Run the tests
 
 ```
-[command to be added once the pytest setup from Task 8 is merged]
+pytest
 ```
 
 ## Project structure
